@@ -1,0 +1,7 @@
+#menu-posts-cilwp-description .wp-menu-image img,
+#menu-posts-cilw .wp-menu-image img {
+    width: 20px;
+	height: 20px;
+    opacity: 1;
+	padding-top:8px;
+}

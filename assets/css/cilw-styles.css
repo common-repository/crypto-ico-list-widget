@@ -1,0 +1,188 @@
+/* Tabs Style - START */
+ul.cilw-nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.cilw-nav li {
+    float: left;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+	margin-bottom: -1px;
+}
+
+ul.cilw-nav li a {
+    text-decoration: none;
+    box-shadow: none;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+	border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+	color:#777;
+	font-size:14px;
+}
+
+ul.cilw-nav li.active a, ul.cilw-nav li.active a:hover, ul.cilw-nav li.active a:focus {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+	outline: 0;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.cilw-container .ico-tab-content {
+  padding:10px;
+  border-left:1px solid #DDD;
+  border-bottom:1px solid #DDD;
+  border-right:1px solid #DDD;
+}
+
+.cilw-container .ico-tab-content .ico-tab-pane {
+	display:none;
+}
+
+.cilw-container .ico-tab-content .ico-tab-pane.show {
+	display:block;
+}
+
+/* Tabs Style - END */
+
+
+/* Table Styles - START */
+
+.ico-tab-pane table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    table-layout: auto;
+    width: 100%;
+	border: 1px solid #e5e5e5;
+}
+
+.ico-tab-pane table tr th {
+	font-size:16px;
+	font-weight:bold;
+	background: #efefef;
+	border: 1px solid #e5e5e5;
+    border-bottom: 3px solid #ddd;
+	color:#222;
+	width: 26%;
+	padding: 0.5em;
+}
+
+.ico-tab-pane table tr td:nth-of-type(1),
+.ico-tab-pane table tr th:nth-of-type(1) {
+    width: 45%;
+}
+
+.ico-tab-pane table tr td {
+	font-size:14px;
+	white-space: unset;
+	word-wrap: break-word;
+	border: 1px solid #e5e5e5;
+	color:#555;
+	padding: 0.5em;
+}
+
+.cilw-logo {
+    width: 42px;
+	height:42px;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: top;
+}
+.cilw-logo img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px -1px #595959;
+}
+.cilw-detail {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 50px);
+    line-height: 1.25em;
+}
+span.cilw-name, span.cilw-symbol {
+    font-size: 1.05em;
+    font-weight: bold;
+}
+.cilw-platform-n {
+    font-size: 0.8em;
+	margin-top:4px;
+}
+
+.cilw-start-dt, .cilw-end-dt {
+    font-size: 1.15em;
+}
+
+.cilw-start-time, .cilw-end-time {
+    font-size: 0.8em;
+}
+
+/* Table Styles - END */
+
+
+/* Responsive Styles - START */
+
+@media only screen and (max-width: 600px) {
+
+.cilw-container .ico-tab-content {
+  padding:5px;
+}
+
+.cilw-logo {
+    width:22px;
+	height:22px;
+}
+
+.cilw-detail {
+    width: calc(100% - 30px);
+}
+	
+.ico-tab-pane table tr td:nth-of-type(1),
+.ico-tab-pane table tr th:nth-of-type(1) {
+    width: 38%;
+}
+
+.ico-tab-pane table tr th,
+.ico-tab-pane table tr td {
+	padding:0.35em;
+}
+
+.ico-tab-pane table tr th,
+ul.cilw-nav li.active a, ul.cilw-nav li.active a:hover, ul.cilw-nav li.active a:focus {
+	font-size:13px;
+}
+
+.ico-tab-pane table tr td,
+ul.cilw-nav li a {
+	font-size:11px;
+}
+
+ul.cilw-nav li a {
+	padding: 5px 5px;
+}
+
+span.cilw-name, span.cilw-symbol, .cilw-start-dt, .cilw-end-dt {
+	font-size:1em;
+}
+
+}
+
+/* Responsive Styles - END */
